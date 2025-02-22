@@ -2,7 +2,12 @@
 # AbleTP
 A Thermal Printer library using ArduinoBLE and Adafruit GFX
 
-![normal_commands](https://github.com/user-attachments/assets/7c6337d4-e8b6-41a6-979c-0c2233921ad0)  ![barcodes](https://github.com/user-attachments/assets/6c4f220f-fb88-4934-9aa5-53b9560ccd0b) ![images](https://github.com/user-attachments/assets/0dde2bdc-5839-49f4-8c30-280f93e84100) ![datalogger](https://github.com/user-attachments/assets/b68d643d-c6bb-4f07-b67e-cc0ff5042fef)
+![normal_commands](https://github.com/user-attachments/assets/889348bf-1fed-41d9-b13d-c62cc7ee104e)
+  ![gfx](https://github.com/user-attachments/assets/80ab7819-3040-4222-bce0-db9f52c26b20)
+  ![datalogger](https://github.com/user-attachments/assets/82f205f5-14eb-44db-a290-6689b621f86c)
 
-![gfx](https://github.com/user-attachments/assets/25743138-5970-4207-8a80-bc3c437b6c18)  
+![barcodes](https://github.com/user-attachments/assets/bead3560-4c57-49cd-8e4b-4d41d87216e6)
+![images](https://github.com/user-attachments/assets/155bd9a0-0b4a-48ab-a8fd-5295d4758bcd)
+
+
 
