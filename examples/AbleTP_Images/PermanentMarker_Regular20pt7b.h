@@ -1,3 +1,18 @@
+/*
+Here is a resource to find,view and download TrueType fonts......
+   https://fonts.google.com/
+
+Here is a great resource to convert the .ttf files to a usable header file
+so you can define your own custom fonts and add them to your sketch.......
+  https://rop.nl/truetype2gfx/
+
+Think of the GFXcanvas1 as a blank sheet of paper that you can write to.
+The blank image is defined by canvasWidth x canvasHeight (in pixles).
+You can write custom text, shapes, lines, etc as found in the Adafruit GFX library.
+Once you are finised drawing to the blank image, you run the PrintDefinedCanvas function.
+All of your graphics and text will print out as one image. 
+We've printed images as large as 360x1000 but your mileage may vary.*/
+
 const uint8_t PermanentMarker_Regular20pt7bBitmaps[] PROGMEM = {
   0x00, 0x01, 0x80, 0x70, 0x0F, 0x83, 0xE0, 0x7C, 0x0F, 0x83, 0xF8, 0x3E,
   0x0F, 0xC1, 0xF8, 0x3E, 0x0F, 0xC1, 0xF8, 0x3F, 0x07, 0xE0, 0xFC, 0x1F,
