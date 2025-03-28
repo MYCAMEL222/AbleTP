@@ -34,6 +34,10 @@ public:
      */
     void setBold(bool enable); // Set text to bold
     /**
+     * 1 for DoubleStrike, 0 for normal
+     */
+    void setDoubleStrike(bool enable); // Set text to bold
+    /**
      * 0: Font A, 1: Font B, 2: Font C (if available)
      */
     void setFont(uint8_t font);
