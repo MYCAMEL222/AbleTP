@@ -3,6 +3,7 @@ AbleTP	KEYWORD1
 begin	KEYWORD2
 reset	KEYWORD2
 setBold	KEYWORD2
+setDoubleStrike KEYWORD2
 setFont	KEYWORD2
 setInvertColor	KEYWORD2
 setLineSpace	KEYWORD2
