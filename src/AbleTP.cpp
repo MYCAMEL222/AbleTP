@@ -57,6 +57,13 @@ void AbleTP::setBold(bool enable)
     sendCommand(enable ? TP_BOLD_ON : TP_BOLD_OFF, 3);
 }
 
+void AbleTP::setDoubleStrike(bool enableds)
+{
+    const uint8_t TP_DS_ON[3] = {0x1B, 0x47, 1};  // ESC G 1 (DOUBLESTRIKE ON)
+    const uint8_t TP_DS_OFF[3] = {0x1B, 0x47, 0}; // ESC G 0 (DOUBLESTRIKE OFF)
+    sendCommand(enableds ? TP_DS_ON : TP_DS_OFF, 3);
+}
+
 void AbleTP::setFont(uint8_t font)
 {
     const uint8_t TP_FONT_A[3] = {0x1B, 0x4D, 0}; // ESC M 0 (Font A)
